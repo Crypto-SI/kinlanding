@@ -1,6 +1,6 @@
 'use client';
 
-import { useFormState } from 'react-dom';
+import { useActionState } from 'react';
 import { useEffect } from 'react';
 import { useToast } from '@/hooks/use-toast';
 import { generateLendingGuidance } from '@/app/actions';
@@ -26,7 +26,10 @@ export function AiGuidanceSection() {
     guidance: '',
     fields: {},
   };
-  const [state, formAction] = useFormState(generateLendingGuidance, initialState);
+  const [state, formAction] = useActionState(
+    generateLendingGuidance,
+    initialState
+  );
 
   useEffect(() => {
     if (state.message && state.message !== 'Success') {
