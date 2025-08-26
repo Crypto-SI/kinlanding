@@ -70,7 +70,7 @@ export function AiGuidanceSection() {
                   <RadioGroup
                     name="riskProfile"
                     defaultValue="moderate"
-                    className="flex space-x-4"
+                    className="flex flex-wrap gap-4"
                   >
                     <div className="flex items-center space-x-2">
                       <RadioGroupItem value="conservative" id="r1" />
