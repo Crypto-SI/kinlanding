@@ -5,13 +5,19 @@ import { useState } from 'react';
 import { KinLogo } from '@/components/icons/KinLogo';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
+import {
+  Sheet,
+  SheetContent,
+  SheetTitle,
+  SheetTrigger,
+} from '@/components/ui/sheet';
 import { Menu, X } from 'lucide-react';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
+    { href: '#protocol', label: 'Protocol' },
     { href: '#features', label: 'Features' },
     { href: '#impact', label: 'Impact' },
     { href: '#ai-guidance', label: 'AI Guidance' },
@@ -52,6 +58,7 @@ export function Header() {
               </Button>
             </SheetTrigger>
             <SheetContent side="left">
+              <SheetTitle className="sr-only">Mobile Menu</SheetTitle>
               <div className="flex h-full flex-col">
                 <div className="flex items-center justify-between border-b pb-4">
                   <Link
