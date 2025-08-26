@@ -5,6 +5,7 @@ import { ProblemSolutionSection } from '@/components/landing/ProblemSolutionSect
 import { LifecycleSection } from '@/components/landing/LifecycleSection';
 import { FeaturesSection } from '@/components/landing/FeaturesSection';
 import { ImpactSection } from '@/components/landing/ImpactSection';
+import { CommunitySection } from '@/components/landing/CommunitySection';
 import { AiGuidanceSection } from '@/components/landing/AiGuidanceSection';
 import { Footer } from '@/components/landing/Footer';
 
@@ -19,6 +20,7 @@ export default function Home() {
         <LifecycleSection />
         <FeaturesSection />
         <ImpactSection />
+        <CommunitySection />
         <AiGuidanceSection />
       </main>
       <Footer />
