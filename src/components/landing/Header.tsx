@@ -28,7 +28,7 @@ export function Header() {
       <div className="container flex h-14 max-w-screen-2xl items-center">
         <div className="mr-4 flex flex-1 items-center">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <KinLogo className="h-6 w-6" />
+            <KinLogo className="h-8 w-8" />
             <span className="font-headline text-lg font-bold sm:inline-block">
               KIN Protocol
             </span>
@@ -66,7 +66,7 @@ export function Header() {
                     className="flex items-center space-x-2"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    <KinLogo className="h-6 w-6" />
+                    <KinLogo className="h-8 w-8" />
                     <span className="font-headline text-lg font-bold">
                       KIN Protocol
                     </span>
