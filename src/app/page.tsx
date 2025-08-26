@@ -15,13 +15,27 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <HeroSection />
-        <ProtocolSection />
-        <ProblemSolutionSection />
-        <LifecycleSection />
-        <FeaturesSection />
-        <ImpactSection />
-        <CommunitySection />
-        <AiGuidanceSection />
+        <div className="animate-fade-in-up">
+          <ProtocolSection />
+        </div>
+        <div className="animate-fade-in-up">
+          <ProblemSolutionSection />
+        </div>
+        <div className="animate-fade-in-up">
+          <LifecycleSection />
+        </div>
+        <div className="animate-fade-in-up">
+          <FeaturesSection />
+        </div>
+        <div className="animate-fade-in-up">
+          <ImpactSection />
+        </div>
+        <div className="animate-fade-in-up">
+          <CommunitySection />
+        </div>
+        <div className="animate-fade-in-up">
+          <AiGuidanceSection />
+        </div>
       </main>
       <Footer />
     </div>
