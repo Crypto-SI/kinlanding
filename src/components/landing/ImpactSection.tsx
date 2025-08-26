@@ -10,23 +10,23 @@ const useCases = [
   {
     title: 'Small Business Funding',
     description:
-      'An entrepreneur in Southeast Asia secured a loan to expand her e-commerce business, vouched for by her local merchant association.',
+      'An entrepreneur in a bustling African market secured a loan to expand her craft business, vouched for by her local merchant association.',
     image: 'https://picsum.photos/600/400?random=1',
-    hint: 'small business',
+    hint: 'african market',
   },
   {
-    title: 'Education Loans',
+    title: 'Agricultural Loans',
     description:
-      'A student from South America is funding their university education through a loan co-signed by alumni from their future program.',
+      'A farmer in Kenya is funding their farm expansion through a loan co-signed by other members of their farming cooperative.',
     image: 'https://picsum.photos/600/400?random=2',
-    hint: 'student education',
+    hint: 'kenyan farmer',
   },
   {
     title: 'Community Projects',
     description:
-      'A cooperative in Africa received funding for a solar-powered irrigation system, enabling them to increase crop yields and local food security.',
+      'A cooperative in a village in Ghana received funding for a solar-powered irrigation system, enabling them to increase crop yields and local food security.',
     image: 'https://picsum.photos/600/400?random=3',
-    hint: 'community project',
+    hint: 'ghanaian village',
   },
 ];
 
