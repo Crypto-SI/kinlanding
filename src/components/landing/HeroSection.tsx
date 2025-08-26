@@ -1,5 +1,5 @@
 import { Button } from '@/components/ui/button';
-import { ArrowDown, PlayCircle } from 'lucide-react';
+import { ArrowDown } from 'lucide-react';
 
 export function HeroSection() {
   return (
@@ -32,11 +32,14 @@ export function HeroSection() {
               </Button>
             </div>
           </div>
-          <div className="flex aspect-video w-full items-center justify-center rounded-lg border-2 border-dashed border-primary/50 bg-primary/10">
-            <div className="text-center">
-                <PlayCircle className="mx-auto h-12 w-12 text-primary/80" />
-                <p className="mt-4 text-muted-foreground">Explainer video coming soon</p>
-            </div>
+          <div className="aspect-video w-full">
+            <iframe
+              className="h-full w-full rounded-lg border border-primary/20 shadow-xl"
+              src="https://www.youtube.com/embed/LxmXhV88SdY"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       </div>
