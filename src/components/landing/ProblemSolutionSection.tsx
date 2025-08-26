@@ -29,8 +29,8 @@ export function ProblemSolutionSection() {
             <p className="mt-4 text-muted-foreground">
               KIN Protocol unlocks capital by treating reputation as a valuable
               asset. By enabling trusted parties (Vouchers) to co-sign loans,
-              we create a system where financial history and social trust, not
-              just existing wealth, determine creditworthiness.
+              we've built a system where financial history and social trust—not
+              just existing wealth—are the keys to securing credit.
             </p>
           </div>
         </div>
