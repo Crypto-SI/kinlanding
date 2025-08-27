@@ -1,4 +1,5 @@
 import { KinLogo } from '@/components/icons/KinLogo';
+import Link from 'next/link';
 
 export function Footer() {
   return (
@@ -11,12 +12,18 @@ export function Footer() {
           </p>
         </div>
         <div className="flex items-center gap-4 text-sm text-muted-foreground">
-          <a href="#" className="transition-colors hover:text-foreground">
+          <Link
+            href="/privacy"
+            className="transition-colors hover:text-foreground"
+          >
             Privacy Policy
-          </a>
-          <a href="#" className="transition-colors hover:text-foreground">
+          </Link>
+          <Link
+            href="/terms"
+            className="transition-colors hover:text-foreground"
+          >
             Terms of Service
-          </a>
+          </Link>
         </div>
       </div>
     </footer>
