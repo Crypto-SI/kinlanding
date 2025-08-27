@@ -49,7 +49,10 @@ export function CommunitySection() {
         </div>
         <div className="mt-12 grid gap-8 md:grid-cols-1 lg:grid-cols-3">
           {communityLinks.map((item) => (
-            <Card key={item.title} className="flex flex-col">
+            <Card
+              key={item.title}
+              className="flex flex-col transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent/30"
+            >
               <CardHeader className="flex-1">
                 <div className="flex h-12 w-12 items-center justify-center rounded-full bg-accent/20">
                   <item.icon className="h-6 w-6 text-accent" />

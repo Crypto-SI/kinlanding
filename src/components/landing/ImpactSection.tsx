@@ -45,7 +45,10 @@ export function ImpactSection() {
         </div>
         <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {useCases.map(useCase => (
-            <Card key={useCase.title} className="overflow-hidden">
+            <Card
+              key={useCase.title}
+              className="overflow-hidden transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent/30"
+            >
               <CardHeader className="p-0">
                 <Image
                   src={useCase.image}

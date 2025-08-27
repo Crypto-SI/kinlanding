@@ -52,7 +52,10 @@ export function LifecycleSection() {
         </div>
         <div className="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           {lifecycleSteps.map(step => (
-            <Card key={step.step} className="text-center">
+            <Card
+              key={step.step}
+              className="text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent/30"
+            >
               <CardHeader>
                 <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-background border-2 border-accent">
                   <step.icon className="h-6 w-6 text-accent" />

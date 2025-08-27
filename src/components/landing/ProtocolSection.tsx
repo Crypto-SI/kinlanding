@@ -20,7 +20,7 @@ export function ProtocolSection() {
           </p>
         </div>
         <div className="mt-12 grid gap-8 md:grid-cols-3">
-          <Card className="text-center">
+          <Card className="text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent/30">
             <CardHeader>
               <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-accent/20">
                 <Users className="h-6 w-6 text-accent" />
@@ -32,7 +32,7 @@ export function ProtocolSection() {
               </CardDescription>
             </CardHeader>
           </Card>
-          <Card className="text-center">
+          <Card className="text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent/30">
             <CardHeader>
               <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-accent/20">
                 <ShieldCheck className="h-6 w-6 text-accent" />
@@ -44,7 +44,7 @@ export function ProtocolSection() {
               </CardDescription>
             </CardHeader>
           </Card>
-          <Card className="text-center">
+          <Card className="text-center transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent/30">
             <CardHeader>
               <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-full bg-accent/20">
                 <Handshake className="h-6 w-6 text-accent" />

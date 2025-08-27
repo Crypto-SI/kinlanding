@@ -79,7 +79,10 @@ function FeatureGrid({ features }: { features: Feature[] }) {
   return (
     <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
       {features.map(feature => (
-        <Card key={feature.title}>
+        <Card
+          key={feature.title}
+          className="transition-all duration-300 hover:-translate-y-1 hover:shadow-2xl hover:shadow-accent/30"
+        >
           <CardHeader>
             <feature.icon className="h-8 w-8 text-primary" />
             <CardTitle className="mt-4 font-headline text-lg">
