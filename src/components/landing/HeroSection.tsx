@@ -23,7 +23,7 @@ export function HeroSection() {
                 size="lg"
                 className="w-full bg-accent text-accent-foreground hover:bg-accent/90 sm:w-auto"
               >
-                <a href="#ai-guidance">Get AI Guidance</a>
+                <a href="#community">Join Us</a>
               </Button>
               <Button asChild size="lg" variant="outline" className="w-full sm:w-auto">
                 <a href="#protocol">

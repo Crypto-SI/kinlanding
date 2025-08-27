@@ -21,7 +21,7 @@ export function Header() {
     { href: '#protocol', label: 'Protocol' },
     { href: '#features', label: 'Features' },
     { href: '#impact', label: 'Impact' },
-    { href: '#ai-guidance', label: 'AI Guidance' },
+    // { href: '#ai-guidance', label: 'AI Guidance' },
   ];
 
   return (
