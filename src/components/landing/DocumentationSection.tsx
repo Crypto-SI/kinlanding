@@ -5,7 +5,9 @@ import {
   AccordionTrigger,
 } from '@/components/ui/accordion';
 import { Badge } from '@/components/ui/badge';
-import { Circle, CircleCheck, CircleDot } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Circle, CircleCheck, CircleDot, Download } from 'lucide-react';
+import Link from 'next/link';
 
 const documentationItems = [
   {
@@ -95,11 +97,19 @@ export function DocumentationSection() {
                 <AccordionContent className="pl-14">
                   <div className="flex flex-col gap-4">
                     <p className="text-muted-foreground">{item.description}</p>
-                    <div className="flex items-center gap-2">
-                      <span className="font-semibold">Status:</span>
-                      <Badge variant={statusVariant[item.status]}>
-                        {item.status}
-                      </Badge>
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <span className="font-semibold">Status:</span>
+                        <Badge variant={statusVariant[item.status]}>
+                          {item.status}
+                        </Badge>
+                      </div>
+                      <Button asChild variant="outline" size="sm">
+                        <Link href="#">
+                          <Download className="mr-2 h-4 w-4" />
+                          Download
+                        </Link>
+                      </Button>
                     </div>
                   </div>
                 </AccordionContent>
