@@ -43,6 +43,13 @@ const documentationItems = [
     description:
       'Third-party security audit reports and findings for the protocol smart contracts.',
   },
+  {
+    title: 'Brand Guide',
+    status: 'Not Started',
+    icon: Circle,
+    description:
+      'Guidelines for using the KIN Protocol brand assets, including logos, colors, and typography.',
+  },
 ];
 
 const statusVariant: { [key: string]: 'default' | 'secondary' | 'outline' } = {
