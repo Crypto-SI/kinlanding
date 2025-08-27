@@ -6,6 +6,7 @@ import { LifecycleSection } from '@/components/landing/LifecycleSection';
 import { FeaturesSection } from '@/components/landing/FeaturesSection';
 import { ImpactSection } from '@/components/landing/ImpactSection';
 import { CommunitySection } from '@/components/landing/CommunitySection';
+import { DocumentationSection } from '@/components/landing/DocumentationSection';
 // import { AiGuidanceSection } from '@/components/landing/AiGuidanceSection';
 import { Footer } from '@/components/landing/Footer';
 
@@ -32,6 +33,9 @@ export default function Home() {
         </div>
         <div className="animate-fade-in-up">
           <CommunitySection />
+        </div>
+        <div className="animate-fade-in-up">
+          <DocumentationSection />
         </div>
         {/* <div className="animate-fade-in-up">
           <AiGuidanceSection />
