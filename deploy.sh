@@ -6,7 +6,7 @@
 set -e
 
 PROJECT_NAME="kinprotocol"
-DOMAIN="kinprotocol.cryptosi.com"
+DOMAIN="kinprotocol.com"
 SERVER_USER="carl"
 SERVER_IP="173.249.36.76"
 REMOTE_PATH="~/sites/${PROJECT_NAME}"

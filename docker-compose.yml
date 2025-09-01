@@ -9,7 +9,7 @@ services:
       - web
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.kinprotocol.rule=Host(`kinprotocol.cryptosi.com`)"
+      - "traefik.http.routers.kinprotocol.rule=Host(`kinprotocol.com`)"
       - "traefik.http.routers.kinprotocol.tls=true"
       - "traefik.http.routers.kinprotocol.tls.certresolver=letsencrypt"
       - "traefik.http.services.kinprotocol.loadbalancer.server.port=3000"
