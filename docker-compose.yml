@@ -10,8 +10,8 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.http.routers.kinprotocol.rule=Host(`kinprotocol.com`)"
-      - "traefik.http.routers.kinprotocol.tls=true"
-      - "traefik.http.routers.kinprotocol.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.kinprotocol.entrypoints=websecure"
+      - "traefik.http.routers.kinprotocol.tls.certresolver=myresolver"
       - "traefik.http.services.kinprotocol.loadbalancer.server.port=3000"
 
 networks:
